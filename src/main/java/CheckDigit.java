@@ -25,9 +25,7 @@ public class CheckDigit
      int iC = numWithCheckDigit%10;
      int c = numWithCheckDigit/10;
      int gC = getCheck(c);
-     if (gC==iC)
-       return true;
-     return false;
+     return gC==iC;
      
    }    
    
